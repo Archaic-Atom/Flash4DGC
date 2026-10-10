@@ -1,0 +1,14 @@
+# Install CUDA PyTorch first, then these packages and the two local extensions.
+numpy==1.26.4
+compressai==1.2.6
+range-coder==1.1
+plyfile
+Pillow
+scipy
+tqdm
+commentjson
+tensorboard
+torchviz
+matplotlib
+ipdb
+ninja

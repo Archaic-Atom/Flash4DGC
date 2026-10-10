@@ -1,0 +1,7 @@
+﻿# Purpose: writing handoff; measured quality/storage/timing, not paper-reported numbers.
+# Sensitivity view: all four methods use both timing runs; no sample removal. Quality frames 0..299 macro mean; decimal MB; timing 1..299 pooled; P95 nearest-rank. N3DV Flash best-of-two, others both; MeetRoom only discussion/trimming, Flash/CL one run, others two. No matched hardware/platform claim across servers.
+dataset,method,scenes,timing_selection,psnr,ssim,lpips,mean_complete_MB,mean_ms,fps,p95_ms,timing_samples,gpu_kernel_ms
+N3DV,QUEEN,6,two_runs_pooled,32.301246825324164,0.9489213069611125,0.09356640773100985,5906.6999275,1591.4773009016637,0.6283470077980015,2244.602583348751,3588,
+N3DV,3DGStream,6,two_runs_pooled,31.11179941283332,0.9419868284463883,0.10022434460206164,2447.073817833333,28.242994617170332,35.40701025351079,77.45586521923542,3588,
+N3DV,4DGC-CL,6,two_runs_pooled,31.07045657581753,0.9425253422723876,0.09528833352857166,260.6894736666667,935.750393955392,1.0686610515578054,975.4736926406622,3588,
+N3DV,Flash4DGC,6,two_runs_pooled,31.07045657581753,0.9425253422723876,0.09528833352857166,355.06091983333334,37.88556943989152,26.39527436921807,56.57852254807949,3588,0.10085181870581862
